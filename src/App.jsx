@@ -9,6 +9,7 @@ import Hero from './components/Hero'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import BgVideo from './components/BgVideo'
+import Footer from './components/Footer'
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
       </section>
       <Hero/>
       <BgVideo/>
+      <Footer/>
     </>
   )
 }
