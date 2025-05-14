@@ -1,6 +1,5 @@
 
 import './App.css'
-import { Provider } from './components/ui/provider'
 import Header from './components/Header'
 import Banner from './components/Banner/Banner'
 import CurveBanner from './components/CurveBanner/CurveBanner'
