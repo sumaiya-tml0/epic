@@ -9,7 +9,7 @@ function Hero() {
   }, []);
   return (
     <div
-  className="hero min-h-screen"
+  className="hero min-h-screen mb-12"
   style={{
     backgroundImage:
       `url(${img})`,

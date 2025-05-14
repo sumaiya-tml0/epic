@@ -8,6 +8,7 @@ import Milestone from './components/milestone/Milestone'
 import Hero from './components/Hero'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import BgVideo from './components/BgVideo'
 function App() {
 
   return (
@@ -19,6 +20,7 @@ function App() {
 <Milestone/>
       </section>
       <Hero/>
+      <BgVideo/>
     </>
   )
 }
