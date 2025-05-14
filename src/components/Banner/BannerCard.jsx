@@ -2,7 +2,7 @@ import React from "react";
 
 function BannerCard() {
   return (
-    <div className="relative top-6 lg:-top-14">
+    <div className="relative top-6 mb-20 lg:mb-0 lg:-top-14">
         <div className="max-w-5xl mx-auto">
       <div className="bg-[#f4f4f4] shadow-[2px_2px_6px_1px_rgba(100,100,111,0.2)] p-8">
         <div className="flex flex-col justify-center items-center text-center space-y-5">
