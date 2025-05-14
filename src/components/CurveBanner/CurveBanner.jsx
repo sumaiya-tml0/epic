@@ -3,7 +3,7 @@ import img from "../../assets/curveBanner.jpg";
 
 function CurveBanner() {
   return (
-    <div className="grid md:grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-3 gap-8 pb-12">
       <div
         className="hero rounded-3xl h-[200px] sm:h-[250px] md:h-[300px] lg:h-[403px] bg-cover bg-center transition ease-in-out duration-800 transform cursor-pointer hover:scale-[1.05]"
         style={{
