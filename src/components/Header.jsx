@@ -19,7 +19,7 @@ function Header() {
       </div>
 
       <div className="hidden lg:block">
-        <ul className="uppercase flex items-center gap-6 !lg:text-xl text-gray-500">
+        <ul className="uppercase flex items-center gap-6 lg:!text-xl text-gray-500 open-sans">
           <li>
             <a href="">our company</a>
           </li>

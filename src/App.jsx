@@ -5,7 +5,9 @@ import Header from './components/Header'
 import Banner from './components/Banner/Banner'
 import CurveBanner from './components/CurveBanner/CurveBanner'
 import Milestone from './components/milestone/Milestone'
-
+import Hero from './components/Hero'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
       <CurveBanner/>
 <Milestone/>
       </section>
+      <Hero/>
     </>
   )
 }

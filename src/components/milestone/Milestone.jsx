@@ -6,9 +6,9 @@ import img4 from "../../assets/clothes.png";
 import CountUp from 'react-countup';
 function Milestone() {
   return (
-    <div className='border border-[#1D306D] rounded-3xl md:rounded-[80px]  p-2.5'>
+    <div className='border border-[#1D306D] rounded-3xl md:rounded-[80px] mb-12 p-2.5'>
         <div className='md:px-8'>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className='flex items-center gap-3'>
             <img src={img1} alt="" className="w-28 transition ease-in-out duration-800 transform hover:scale-[1.08]"
         />
