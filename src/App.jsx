@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import BgVideo from './components/BgVideo'
 import Footer from './components/Footer'
 import Certifications from './components/certifications/Certifications'
+import Stories from './components/Stories'
 function App() {
 
   return (
@@ -22,6 +23,9 @@ function App() {
       </section>
       <Hero/>
       <BgVideo/>
+
+  <Stories/>
+
       <Certifications/>
       <Footer/>
     </>

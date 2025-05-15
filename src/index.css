@@ -43,8 +43,33 @@
 
 body {
   font-family: 'Roundo', sans-serif;
+  background-color: white;
 }
 .open-sans {
   font-family: "Open Sans", sans-serif;
  
+}
+#success-section {
+    position: relative;
+    padding: 30px 0 50px;
+    z-index: 2;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+#success-section::before {
+    background: #F4F4F4;
+    content: '';
+    position: absolute;
+    height: 95%;
+    width: 83%;
+    z-index: -99;
+    left: 9%;
+}
+@media (max-width: 640px) {
+    #success-section::before {
+        width: 91%;
+        left: 5%;
+    }
 }
