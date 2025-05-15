@@ -80,14 +80,21 @@ body {
 .splide__arrow--next {
     right: -3rem !important;
 }
+.splide__arrow{
+    /* fill: #ffffff !important; */
+    height: 3rem !important;
+   
+}
 .splide__arrow svg {
     /* fill: #ffffff !important; */
-    height: 2.5em;
-    transition: fill .2s linear;
-    width: 2.5em;
+   
+    display: none;
 }
-.splide__arrow--next {
+.splide__arrow--next, .splide__arrow--prev {
     background-image: url(../src/assets/next.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .splide__arrow--prev {
     background-image: url(../src/assets/prev.png) !important;

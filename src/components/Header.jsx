@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 import logo from "../assets/logo.png";
+import link from "../assets/link.png";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 function Header() {
       const [menuOpen, setMenuOpen] = useState(false);
@@ -11,14 +12,14 @@ function Header() {
   };
 
   return (
-    <header className="py-7">
-        <div className="max-w-[1300px] mx-auto px-4">
+    <header className="py-10">
+        <div className="max-w-[1300px] mx-auto px-8">
             <div className="flex items-center justify-between">
       <div className="max-w-40">
         <img src={logo} alt="Epic group" />
       </div>
 
-      <div className="hidden lg:block">
+      <div className="hidden lg:block self-center">
         <ul className="uppercase flex items-center gap-6 lg:!text-xl text-gray-500 open-sans">
           <li>
             <a href="">our company</a>
@@ -36,7 +37,7 @@ function Header() {
       </div>
       {/* Social Icons */}
       <div>
-        <ul className="flex items-center gap-3 lg:!text-2xl text-blue-950">
+        <ul className="flex items-center gap-3 lg:!text-3xl text-blue-950">
           <li>
             <a href="">
               <FaLinkedin />
@@ -50,6 +51,11 @@ function Header() {
           <li>
             <a href="">
               <FaInstagramSquare />
+            </a>
+          </li>
+          <li>
+            <a href="https://profiles.dunsregistered.com/HongKongComprehensiveProfile.aspx?PaArea=email&SealkeyQ=E140163056768" target="_blank">
+            <img src={link} alt="" />
             </a>
           </li>
          
