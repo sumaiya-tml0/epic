@@ -9,7 +9,7 @@ function Teams() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6  ">
         {/* Card 1 */}
 
-        <div className="relative rounded-3xl lg:rounded-[50px] overflow-hidden shadow-[inset_rgb(100_100_111_/_20%)_4px_0px_4px_2px] drop-shadow-xl/50 transition ease-in-out duration-800 transform cursor-pointer hover:scale-[1.1]">
+        <div className="relative rounded-3xl lg:rounded-[50px] overflow-hidden shadow-[inset_rgb(100_100_111_/_20%)_4px_0px_4px_2px] drop-shadow-xl/50 transition ease-in-out duration-800 transform cursor-pointer hover:scale-[1.05]">
           <img
             src={img1}
             alt="meet our team"
@@ -24,7 +24,7 @@ function Teams() {
 
         {/* Card 2 */}
 
-        <div className="relative rounded-3xl lg:rounded-[50px]  overflow-hidden shadow-[inset_rgb(100_100_111_/_20%)_4px_0px_4px_2px] drop-shadow-xl/50 transition ease-in-out duration-800 transform cursor-pointer hover:scale-[1.1]">
+        <div className="relative rounded-3xl lg:rounded-[50px]  overflow-hidden shadow-[inset_rgb(100_100_111_/_20%)_4px_0px_4px_2px] drop-shadow-xl/50 transition ease-in-out duration-800 transform cursor-pointer hover:scale-[1.05]">
           <img
             src={img2}
             alt="brand that trust us"

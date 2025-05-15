@@ -72,6 +72,27 @@ body {
     width: 70%;
     left: 15%;
 }
+
+
+.splide__arrow--prev {
+    left: -3rem !important;
+}
+.splide__arrow--next {
+    right: -3rem !important;
+}
+.splide__arrow svg {
+    /* fill: #ffffff !important; */
+    height: 2.5em;
+    transition: fill .2s linear;
+    width: 2.5em;
+}
+.splide__arrow--next {
+    background-image: url(../src/assets/next.png) !important;
+}
+.splide__arrow--prev {
+    background-image: url(../src/assets/prev.png) !important;
+}
+
 @media (max-width: 640px) {
     .stories-section::before {
         width: 91%;
@@ -81,4 +102,10 @@ body {
         width: 94%;
         left: 3%;
     }
+    .splide__arrow--prev {
+    left: -1rem !important;
+}
+.splide__arrow--next {
+    right: -1rem !important;
+}
 }

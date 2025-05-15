@@ -3,7 +3,7 @@ import video from "../../src/assets/video/store.mp4";
 
 function BgVideo() {
   return (
-   <div className="hero h-100 relative overflow-hidden mb-2.5">
+   <div className="hero h-120 relative overflow-hidden mb-2.5">
       <video
         autoPlay
         loop

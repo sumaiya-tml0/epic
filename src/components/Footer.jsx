@@ -2,12 +2,13 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="footer  sm:footer-horizontal bg-[#081F3F] text-white md:text-sm lg:text-lg p-10 gap-6 lg:gap-14 ">
+    <footer className="footer  sm:footer-horizontal bg-[#081F3F] text-white md:text-sm lg:text-lg p-10 gap-6 lg:gap-14 open-sans">
   <aside>
   
-    <h2 className='text-xl'>
-      CONTACT US
+    <h2 className='text-2xl font-semibold relative inline-block after:block after:w-full after:h-[1px] after:bg-current after:mt-1 mb-4'>
+      <a href="">CONTACT US</a>
     </h2>
+    
   
         <p>Hong Kong SAR Headquarters,</p>
     <p>9th Floor, EGL Tower,</p>
@@ -21,45 +22,45 @@ function Footer() {
     <p>communications@epichk.com</p>
   </aside>
   <nav>
-    <h6 className="footer-title">our company</h6>
-    <a className="link link-hover pl-2.5">About Us</a>
-    <a className="link link-hover pl-2.5">Our People</a>
-    <a className="link link-hover pl-2.5">Our Clients</a>
-    <a className="link link-hover pl-2.5">Awards, Accreditations & Certifications</a>
-    <a className="link link-hover pl-2.5">Privacy Policy</a>
-    <a className="link link-hover pl-2.5">Terms of use</a>
-    <a className="link link-hover pl-2.5">Code of Conduct</a>
-    <a className="link link-hover pl-2.5">Reports and Downloads</a>
+    <h6 className="footer-title opacity-100 font-bold lg:text-[19px] lg:mt-8">our company</h6>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">About Us</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Our People</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Our Clients</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Awards, Accreditations & Certifications</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Privacy Policy</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Terms of use</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Code of Conduct</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Reports and Downloads</a>
   </nav>
 <div>
       <nav>
-    <h6 className="footer-title">our purpose</h6>
-    <a className="link link-hover pl-2.5">Relentless Pursuit of Better</a>
+    <h6 className="footer-title opacity-100 font-bold lg:text-[19px] lg:mt-8">our purpose</h6>
+    <a className="link link-hover pl-2.5 lg:pl-4.5 text-wrap">Relentless Pursuit</a>
     <br />
-    <a className="link link-hover pl-2.5">Epic Brand Values</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Epic Brand Values</a>
 
   </nav>
   <nav>
-    <h6 className="footer-title">inside our showroom</h6>
-    <a className="link link-hover pl-2.5">Products</a>
+    <h6 className="footer-title opacity-100 font-bold lg:text-[19px]">inside our showroom</h6>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Products</a>
    
 
   </nav>
 </div>
   <nav>
-    <h6 className="footer-title">esg</h6>
-    <a className="link link-hover pl-2.5">Asian University for Women</a>
-    <a className="link link-hover pl-2.5">Epic University</a>
-    <a className="link link-hover pl-2.5">Recycled Polyester</a>
-    <a className="link link-hover pl-2.5">Water-less Denim</a>
+    <h6 className="footer-title opacity-100 font-bold lg:text-[19px] lg:mt-8">esg</h6>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Asian University for Women</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Epic University</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Recycled Polyester</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Water-less Denim</a>
   </nav>
   <nav>
-    <h6 className="footer-title">our capabilities</h6>
-    <a className="link link-hover pl-2.5">Development</a>
-    <a className="link link-hover pl-2.5">Sourcing</a>
-    <a className="link link-hover pl-2.5">Manufacturing</a>
-    <a className="link link-hover pl-2.5">Factories of the Future</a>
-    <a className="link link-hover pl-2.5">Technology</a>
+    <h6 className="footer-title opacity-100 font-bold lg:text-[19px] lg:mt-8">our capabilities</h6>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Development</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Sourcing</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Manufacturing</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Factories of the Future</a>
+    <a className="link link-hover pl-2.5 lg:pl-4.5">Technology</a>
   </nav>
 </footer>
   )
