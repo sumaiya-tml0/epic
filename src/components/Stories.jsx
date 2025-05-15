@@ -5,7 +5,7 @@ import img3 from "../assets/stories/almaznew.jpg"
 
 function Stories() {
   return (
-    <div id='success-section' className="">
+    <div className="section stories-section">
       <div className="text-center uppercase font-normal text-2xl md:text-3xl lg:text-5xl text-[#1D306D] my-8">
         <h2>
           Our <span className="font-bold">better</span> success stories

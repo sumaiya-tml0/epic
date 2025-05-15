@@ -49,7 +49,7 @@ body {
   font-family: "Open Sans", sans-serif;
  
 }
-#success-section {
+.section {
     position: relative;
     padding: 30px 0 50px;
     z-index: 2;
@@ -58,7 +58,7 @@ body {
     margin-bottom: 60px;
 }
 
-#success-section::before {
+.stories-section::before, .service-section::before {
     background: #F4F4F4;
     content: '';
     position: absolute;
@@ -67,9 +67,18 @@ body {
     z-index: -99;
     left: 9%;
 }
+.service-section::before{
+   
+    width: 70%;
+    left: 15%;
+}
 @media (max-width: 640px) {
-    #success-section::before {
+    .stories-section::before {
         width: 91%;
         left: 5%;
+    }
+    .service-section::before {
+        width: 94%;
+        left: 3%;
     }
 }
