@@ -11,6 +11,7 @@ import BgVideo from './components/BgVideo'
 import Footer from './components/Footer'
 import Certifications from './components/certifications/Certifications'
 import Stories from './components/Stories'
+import Teams from './components/certifications/Teams'
 function App() {
 
   return (
@@ -23,7 +24,9 @@ function App() {
       </section>
       <Hero/>
       <BgVideo/>
-
+<section className='max-w-[1300px] mx-auto px-5 lg:px-8'>
+  <Teams/>
+</section>
   <Stories/>
 
       <Certifications/>
