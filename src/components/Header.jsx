@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaFacebook, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 
 import logo from "../assets/logo.png";
-import linkImg from "../assets/link.png";
+import linkIcon  from "../assets/link.png";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 function Header() {
       const [menuOpen, setMenuOpen] = useState(false);
@@ -55,7 +55,7 @@ function Header() {
           </li>
           <li>
             <a href="https://profiles.dunsregistered.com/HongKongComprehensiveProfile.aspx?PaArea=email&SealkeyQ=E140163056768" target="_blank">
-            <img src={linkImg} alt="" />
+            <img src={linkIcon } alt="" />
             </a>
           </li>
          
